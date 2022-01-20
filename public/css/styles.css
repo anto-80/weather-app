@@ -47,7 +47,7 @@ h2 {
   align-items: center;
   width: 100%;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem;
   background-color: #fafafa;
 }
 
@@ -58,6 +58,8 @@ h2 {
 }
 .weatherLocation input:focus{
   outline: 0 none;
+  
+  
 }
 
 .widget .weatherIcon {
@@ -131,10 +133,12 @@ p a {
   font-size: 10px;
 }
 .btn1 {
-  background-color: #0b0f0e;
-  border: 2px;
+  background-color:#0e1413;
+  border: 2px solid black;
   color: white;
+  border-radius: 5px;
   padding: 10px;
+  
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -142,10 +146,11 @@ p a {
   margin: 4px 2px;/* Green */
 }
 .btn2 {
-  background-color: #83f0c8;
+  background-color: #f6fcfa;
   border: 2px;
+  border-radius: 5px;
   color: white;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
